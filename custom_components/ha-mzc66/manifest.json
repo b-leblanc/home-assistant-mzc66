@@ -1,0 +1,16 @@
+{
+  "domain": "ha-mcz66",
+  "name": " MZC-66 Integration",
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/speakercraft",
+  "requirements": ["pyserial==3.5", "construct==2.10.68"],
+  "ssdp": [],
+  "zeroconf": [],
+  "homekit": {},
+  "dependencies": [],
+  "codeowners": [
+    "@b-leblanc"
+  ],
+  "iot_class": "local_polling",
+  "version": "1.0.0"
+}

@@ -1,0 +1,46 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Speakercraft device configuration",
+        "data": {
+          "amp1_port": "Amp 1 - Port",
+          "amp1_source1": "Amp 1 - Source 1 Name",
+          "amp1_source2": "Amp 1 - Source 2 Name",
+          "amp1_source3": "Amp 1 - Source 3 Name",
+          "amp1_source4": "Amp 1 - Source 4 Name",
+          "amp1_source5": "Amp 1 - Source 5 Name",
+          "amp1_source6": "Amp 1 - Source 6 Name",
+          "amp1_zone1": "Amp 1 - Zone 1 Name",
+          "amp1_zone2": "Amp 1 - Zone 2 Name",
+          "amp1_zone3": "Amp 1 - Zone 3 Name",
+          "amp1_zone4": "Amp 1 - Zone 4 Name",
+          "amp1_zone5": "Amp 1 - Zone 5 Name",
+          "amp1_zone6": "Amp 1 - Zone 6 Name",
+
+          "amp2_port": "Amp 2 - Port",
+          "amp2_source1": "Amp 2 - Source 1 Name",
+          "amp2_source2": "Amp 2 - Source 2 Name",
+          "amp2_source3": "Amp 2 - Source 3 Name",
+          "amp2_source4": "Amp 2 - Source 4 Name",
+          "amp2_source5": "Amp 2 - Source 5 Name",
+          "amp2_source6": "Amp 2 - Source 6 Name",
+          "amp2_zone1": "Amp 2 - Zone 1 Name",
+          "amp2_zone2": "Amp 2 - Zone 2 Name",
+          "amp2_zone3": "Amp 2 - Zone 3 Name",
+          "amp2_zone4": "Amp 2 - Zone 4 Name",
+          "amp2_zone5": "Amp 2 - Zone 5 Name",
+          "amp2_zone6": "Amp 2 - Zone 6 Name"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "[%key:common::config_flow::error::cannot_connect%]",
+      "invalid_auth": "[%key:common::config_flow::error::invalid_auth%]",
+      "unknown": "[%key:common::config_flow::error::unknown%]"
+    },
+    "abort": {
+      "already_configured": "[%key:common::config_flow::abort::already_configured_device%]"
+    }
+  }
+}
